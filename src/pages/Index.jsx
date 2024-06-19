@@ -4,11 +4,32 @@ import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { useState } from "react";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-gray-100">
       {}
+      <section className="py-20 bg-white text-gray-800">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+          <Accordion type="single" collapsible>
+            <AccordionItem value="item-1">
+              <AccordionTrigger>What is your startup about?</AccordionTrigger>
+              <AccordionContent>Our startup focuses on innovating the future with cutting-edge technology solutions.</AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-2">
+              <AccordionTrigger>How can I get started?</AccordionTrigger>
+              <AccordionContent>You can get started by signing up on our platform and exploring our features.</AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-3">
+              <AccordionTrigger>What are the benefits of using your services?</AccordionTrigger>
+              <AccordionContent>Our services offer unparalleled efficiency and ease of use, helping you achieve your goals faster.</AccordionContent>
+            </AccordionItem>
+          </Accordion>
+        </div>
+      </section>
+
       <section className="flex flex-col items-center justify-center h-screen bg-blue-600 text-white">
         <h1 className="text-5xl font-bold mb-4">Welcome to Our Startup</h1>
         <p className="text-xl mb-8">Innovating the future, one step at a time.</p>
@@ -18,6 +39,26 @@ const Index = () => {
       </section>
 
       {}
+      <section className="py-20 bg-white text-gray-800">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+          <Accordion type="single" collapsible>
+            <AccordionItem value="item-1">
+              <AccordionTrigger>What is your startup about?</AccordionTrigger>
+              <AccordionContent>Our startup focuses on innovating the future with cutting-edge technology solutions.</AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-2">
+              <AccordionTrigger>How can I get started?</AccordionTrigger>
+              <AccordionContent>You can get started by signing up on our platform and exploring our features.</AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-3">
+              <AccordionTrigger>What are the benefits of using your services?</AccordionTrigger>
+              <AccordionContent>Our services offer unparalleled efficiency and ease of use, helping you achieve your goals faster.</AccordionContent>
+            </AccordionItem>
+          </Accordion>
+        </div>
+      </section>
+
       <section className="py-20 bg-white text-gray-800">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Features</h2>
@@ -51,6 +92,26 @@ const Index = () => {
       </section>
 
       {}
+      <section className="py-20 bg-white text-gray-800">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Frequently Asked Questions</h2>
+          <Accordion type="single" collapsible>
+            <AccordionItem value="item-1">
+              <AccordionTrigger>What is your startup about?</AccordionTrigger>
+              <AccordionContent>Our startup focuses on innovating the future with cutting-edge technology solutions.</AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-2">
+              <AccordionTrigger>How can I get started?</AccordionTrigger>
+              <AccordionContent>You can get started by signing up on our platform and exploring our features.</AccordionContent>
+            </AccordionItem>
+            <AccordionItem value="item-3">
+              <AccordionTrigger>What are the benefits of using your services?</AccordionTrigger>
+              <AccordionContent>Our services offer unparalleled efficiency and ease of use, helping you achieve your goals faster.</AccordionContent>
+            </AccordionItem>
+          </Accordion>
+        </div>
+      </section>
+
       <section className="py-20 bg-gray-100 text-gray-800">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Testimonials</h2>
